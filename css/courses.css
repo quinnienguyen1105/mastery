@@ -1,0 +1,34 @@
+.container.nav_container a:hover{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.course-list > h1 {
+    margin: 1.6rem 0 2.5rem;
+    text-align: center;
+}
+.course-categories{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: initial;
+    gap: 0.7rem;
+}
+.course-categories .course-category-link {
+    padding: 0.5rem 0.7rem;
+    border: 1px solid var(--color-white);
+    border-radius: 6.25rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.course-categories .course-category-link:hover {
+    background: var(--color-bg1);
+    text-decoration: none;
+    color: var(--color-white);
+    border: none;
+}
+.courses {
+    margin-top: 2rem !important;
+}
+.btn {
+    border-radius: 0 !important;
+}
